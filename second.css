@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+.container {
+  width: 1100px;
+  margin: auto;
+}
+.info {
+  display: flex;
+}
+
+.info-text h1 {
+  margin-left: 20px;
+}
+
+.info-text p {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #86898f;
+}
+.avatar {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgb(0, 0, 0, 0.25);
+}
+.card-1 {
+  border: 1px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #6699ff 0%, #ff66ff 100%);
+}
+.card-1 h3 {
+  padding-left: 40px;
+  padding-top: 20px;
+  text-align: center;
+  border-bottom: 3px solid yellow;
+}
+.card-1 ol {
+  list-style: none;
+  padding: 20px;
+  color: gold;
+}
+.card-1 li {
+  margin-bottom: 6px;
+  padding: 0 20px;
+}
+.card-1 li:hover {
+  background: #6699ff;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
+.card-2 {
+  background: linear-gradient(to bottom, #ff66ff 0%, #6699ff 100%);
+  border-radius: 25px;
+  padding-left: 50px;
+}
+
+.th {
+  border-bottom: 3px solid yellow;
+}
+
+.table {
+  width: 100%;
+  padding: 10px 20px;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #f1f1f1;
+}
+
+.btn {
+  color: #0f141e;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: wheat;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #f1f1f1;
+  background-color: black;
+}
+.a {
+  width: 100%;
+  display: flex;
+  margin-left: 360px;
+}
+
+.a img {
+  width: 50px;
+  margin: 10px 20px;
+  border: 3px solid #6699ff;
+  border-radius: 15px;
+}
+.a img:hover {
+  opacity: 0.7;
+}
+
+.form h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea {
+  font-family: inherit;
+  padding: 15px 0 15px;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: 46%;
+}
+
+.form-row2 {
+  margin-bottom: 10px;
+}
+
+.form-row2 .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: 46%;
+}
+
+.form-row3 {
+  margin-bottom: 10px;
+}
+
+.form-row3 .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: 46%;
+}
+.tbm {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
